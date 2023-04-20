@@ -17,7 +17,7 @@ public class EmisionesCo2 {
 
     public static void main(String[] args) throws IOException {
 
-        String urlBase = "https://maralboran.eu/";
+        String urlBase = "https://api.websitecarbon.com/site?url=https://maralboran.eu/";
 
         String fichero = ConexionHTTP.peticionHttpGet(urlBase);
 
